@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:IT3B_Chat.Server"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+	<Grid>
+		<Button Content="Připojit" HorizontalAlignment="Left"  Height="64" Margin="23,27,0,0" VerticalAlignment="Top" Width="156" FontSize="18" Click="Button_Click"/>
+		<Button Content="Odpojit" HorizontalAlignment="Left" Height="64" Margin="23,114,0,0" VerticalAlignment="Top" FontSize="18" Width="156"/>
+		<TextBox HorizontalAlignment="Left" Height="178" Margin="344,64,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="348" TextChanged="TextBox_TextChanged"/>
+		<Button Content="Odeslat zprávu" HorizontalAlignment="Left" Height="32" Margin="458,11,0,0" VerticalAlignment="Top" FontSize="17" Width="120"/>
 
-    </Grid>
+	</Grid>
 </Window>
