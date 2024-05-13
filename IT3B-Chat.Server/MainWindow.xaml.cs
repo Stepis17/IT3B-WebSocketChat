@@ -30,5 +30,10 @@ namespace IT3B_Chat.Server
         {
 
         }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

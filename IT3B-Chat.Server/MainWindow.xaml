@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 	<Grid>
-		<Button Content="Připojit" HorizontalAlignment="Left"  Height="64" Margin="23,27,0,0" VerticalAlignment="Top" Width="156" FontSize="18" Click="Button_Click"/>
-		<Button Content="Odpojit" HorizontalAlignment="Left" Height="64" Margin="23,114,0,0" VerticalAlignment="Top" FontSize="18" Width="156"/>
-		<TextBox HorizontalAlignment="Left" Height="178" Margin="344,64,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="348" TextChanged="TextBox_TextChanged"/>
-		<Button Content="Odeslat zprávu" HorizontalAlignment="Left" Height="32" Margin="458,11,0,0" VerticalAlignment="Top" FontSize="17" Width="120"/>
+		<Button Content="Připojit" HorizontalAlignment="Left"  Height="26" Margin="10,63,0,0" VerticalAlignment="Top" Width="82" FontSize="15" Click="Button_Click"/>
+		<Button Content="Odpojit" HorizontalAlignment="Left" Height="25" Margin="10,104,0,0" VerticalAlignment="Top" FontSize="15" Width="82"/>
+		<TextBox HorizontalAlignment="Left" Height="66" Margin="563,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" TextChanged="TextBox_TextChanged"/>
+		<Button Content="Odeslat zprávu" HorizontalAlignment="Left" Height="32" Margin="603,16,0,0" VerticalAlignment="Top" FontSize="17" Width="120"/>
+		<TextBox HorizontalAlignment="Left" Height="33" Margin="118,13,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="175" TextChanged="TextBox_TextChanged_1"/>
+		<TextBlock HorizontalAlignment="Left" FontSize="16" Height="29" Margin="10,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.432,0.062"><Run Text="Adresa srveru"/><Run Language="cs-cz" Text=":"/></TextBlock>
+		<TextBox HorizontalAlignment="Center" Height="256" Margin="0,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="444"/>
 
 	</Grid>
 </Window>
